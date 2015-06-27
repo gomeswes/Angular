@@ -1,0 +1,44 @@
+<html ng-app="singlePageWebApp">
+    
+    <head>
+        <title>Angular - Single Page Web App</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <span class="navbar-brand">Single page web app</span>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#/">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#/Loop">The loop</a>
+                        </li>
+                        <li>
+                            <a href="#/HelloWorld">Hello World</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div ng-view></div>
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type"text/javascript"></script>
+        <script src="//code.angularjs.org/1.4.1/angular.min.js" type="text/javascript"></script>
+        <script src="//code.angularjs.org/1.4.1/angular-route.min.js"
+                type="text/javascript"></script>
+        <script src="index.js" type="text/javascript"></script>
+    </body>
+    
+</html>

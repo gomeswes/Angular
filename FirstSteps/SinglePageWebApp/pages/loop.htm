@@ -1,0 +1,11 @@
+<h2>{{ title }}</h2>
+
+
+<input class="form-control" type="text" ng-model="newRule" />
+<a class="btn btn-default" href="javascript:void(0);" ng-click="createRule();">add</a>
+<ul>
+    <li ng-repeat="rule in rules | orderBy: name">
+        {{ rule.name }}
+    </li>
+
+</ul>
